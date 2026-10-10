@@ -1,4 +1,46 @@
-      <img src="assets/report-button.png" alt="Report Bug"></a>
+<!-- Insert this dedicated dedication bar right at the very top opening of your <body> tag -->
+<div class="memorial-header" aria-label="Dedication">
+  <span class="mem-left">Jessie T. Jr.</span>
+  <span class="mem-center">Patricia T.</span>
+  <span class="mem-right">David T.</span>
+</div>
+
+<style>
+  /* Clean, responsive dedication typography styling */
+  .memorial-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px 5px 20px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .memorial-header span {
+    font-size: 11px;
+    font-weight: 500;
+    color: #777777; /* Subtle muted gray text so it remains small and private to you */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    pointer-events: none;
+    user-select: none;
+  }
+  /* Ensure proper spacing on mobile views */
+  @media (max-width: 480px) {
+    .memorial-header {
+      padding: 8px 12px 4px 12px;
+    }
+    .memorial-header span {
+      font-size: 10px;
+      letter-spacing: 0.5px;
+    }
+  }
+</style>
+
+<!-- Rest of your existing landing page structure below -->
+<img src="assets/report-button.png" alt="Report Bug"></a>
     </section>
 
     <div class="controls">
