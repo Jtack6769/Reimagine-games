@@ -610,39 +610,4 @@
             },
 
             startGame: function(gameMode) {
-                this.currentGame = gameMode;
-                this.isPlaying = true;
-                this.playerStats.gamesPlayed++;
-                console.log(`🎮 Game started: ${gameMode}`);
-            },
-
-            endGame: function(won = false) {
-                if (won) {
-                    this.playerStats.gamesWon++;
-                }
-                this.playerStats.totalScore += ScorePlugin.getTotal();
-                this.isPlaying = false;
-                ScorePlugin.reset();
-                console.log(`🏁 Game ended. Total wins: ${this.playerStats.gamesWon}`);
-            },
-
-            getStats: function() {
-                return this.playerStats;
-            }
-        };
-
-        // ============================================
-        // APP INITIALIZATION
-        // ============================================
-        const ReimaginApp = {
-            init: function() {
-                // Load saved settings
-                AppSettings.load();
-
-                // Initialize plugins
-                console.log('='.repeat(40));
-                console.log('🎬 REIMAGINE GAMES - Initializing...');
-                console.log('='.repeat(40));
-                console.log('✓ Settings module loaded');
-                console.log('✓ Score</body>
-                            </html>
+    
