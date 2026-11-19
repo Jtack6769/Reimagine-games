@@ -460,10 +460,7 @@ footer.site ul a:hover{color:var(--gold)}
   var theaterViews = { indoor: 'logan', drivein: 'night', world: 'world' };
   Array.prototype.forEach.call(document.querySelectorAll('[data-theater]'), function(card){
     card.addEventListener('click', function(){
-      setView(theaterViews[card.getAttribute('data-theater')]);
-    });
-  });
-})();
+      setView(theaterViews[card.getAttribute('data-theater'})();
 
 })();
 </script>
