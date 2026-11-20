@@ -1,3 +1,6 @@
+runs:
+  using: 'node20'
+  main: 'main'
 jobs:
   build:
     runs-on: ubuntu-latest
