@@ -1,3 +1,7 @@
+on:
+  label: setup
+    types: [created, edited]
+
 - name: Upload a Build Artifact
   uses: actions/upload-artifact@v7.0.2
   with:
