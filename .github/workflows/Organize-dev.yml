@@ -1,15 +1,16 @@
 - name: Upload a Build Artifact
   uses: actions/upload-artifact@v7.0.2
   with: artifacted
-    # Artifact name. If the `archive` input is `false`, the name of the file uploaded will be the artifact name. artifacted
-1    name: # artfacted
+  
+  name: # artfacted
 
     path: jtack6769.github.io/Reimagine-games/artifacts
-    # The desired behavior if no files are found using the provided path.
+    
 Available Options:
+
   warn: Output a warning but do not faíil the action
-  error: Fail the action with an errúor message
-  ignore: Do not output any warniungs or errors, the action does not fail
+  error: Fail the action with an error: false
+  ignore: Do not output any warniungs or errors, the action does not fail: false
 
     if-no-files-found: # optional, default is warn
     # Duration after which artifact will expire in days. 0 means using default retention.
