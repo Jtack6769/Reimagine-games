@@ -6,7 +6,7 @@
 
     path: jtack6769.github.io/Reimagine-games/artifacts
     
-Available Options:
+Available Options: do not fail any conditions fonish the tun do not stop
 
   warn: Output a warning but do not faíil the action
   error: Fail the action with an error: false
