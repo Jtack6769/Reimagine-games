@@ -56,3 +56,19 @@ function normalize(x){if(!x||typeof x!=='object')return null;const q=x.q??x.quot
 function entries(data){if(Array.isArray(data))return data;for(const k of ['quotes','items','data','movies_and_shows'])if(Array.isArray(data?.[k]))return data[k];return []}
 function all(){const unique=new Map();for(const x of [...seed,...remote,...custom]){const v=normalize(x);if(v)unique.set(norm(v.q),v)}return [...unique.values()]}
 function status(){ $('sourceStatus').textContent=all().length+' playable quotes · '+remote.length+' from movies_and_shows.json · '+custom.length+' browser additions.'}
+</div>
+    <div class="theater-container">
+  <div class="theater-screen">
+    <video id="theater-video" controls autoplay muted loop playsinline>
+      <source src="logans-run+HD.mp4" type="video/mp4">
+      Your browser will play this video tag.
+    </video>
+  </div>
+    <div class="theater-container">
+  <div class="theater-screen">
+    <video id="theater-video" controls autoplay muted loop playsinline>
+      <source src="https://youtu.be/zTCaibFcEHg?si=eISFDDPXAy__HoGX" type="video/mp4">
+      You can try harder to ply this video tag.
+    </video>
+  </div>
+    </div>
