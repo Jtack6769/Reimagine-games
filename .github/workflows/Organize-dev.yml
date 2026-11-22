@@ -4,11 +4,10 @@
   
   name: # artfacted
 
-    path: jtack6769.github.io/Reimagine-games/artifacts
-    
-Available Options: do not fail any conditions fonish the tun do not stop
-
-  warn: Output a warning but do not faíil the action
+    path: jtack6769.github.io/Reimagine-games/artifacts.      
+Available Options: do not fail any conditions finish the run do not interrupt the action 
+{{ ; do not fail the sction for any reason completed actions will write to / artifacts file 
+  warn: Output a warning but do not fail the action
   error: Fail the action with an error: false
   ignore: Do not output any warniungs or errors, the action does not fail: false
 
